@@ -10,6 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Check index.html exists
-        run: test -f cicd-demo/index.html && echo "index.html found"
+        run: test -f index.html && echo "index.html found"
       - name: Show file content
-        run: cat cicd-demo/index.html
+        run: cat index.html
